@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+</head>
+<body>
+
+   <!-- Yerel bir HTML dosyasını (forms.html) sayfaya gömüyor -->
+   <iframe src="forms.html"
+     name="myframe"
+     frameborder="0"
+     width="400"
+     height="300"
+     title="üyelik formu" >
+   </iframe>
+
+      <!-- Bu bağlantıya tıklanınca, yukarıdaki iframe içine sadikturan.com yüklenir -->
+     <p>
+        <a href="https://sadikturan.com" target="myframe">linke git</a>
+     </p>
+
+     <!-- YouTube videosunu sayfaya gömmek için kullanılan iframe -->
+     <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4ZDRBpJPzdU" title="8-Asp.Net Mvc ile E-Ticaret Uygulaması-Sipariş Yönetimi-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>     
+     </div>
+
+</body>
+</html>
